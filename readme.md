@@ -93,20 +93,33 @@ posso ter nenhum texto com varias variavei, tambem com texto e sem variavel ou o
 
 * .<num>= especificaa quantos digitos terao depois da virgula
 
-\a= toca um bipe
-\b backspace
-\n= quebra uma linha
-\t= tabulaçao horizontal
-\r= retorna ao inicio da linha
-\o= caractere nulo
-\v= tabulaçao vertical
+* \a= toca um bipe
 
-\\= caractere \
-\'= caractere '
-\"= caractere "
-\?= caractere ?
-\123= caractere relacionado ao codigo 123 em octal
-\x12= caractere relacionado ao codigo 12 em hexadecimal
+* \b backspace
+
+* \n= quebra uma linha
+
+* \t= tabulaçao horizontal
+
+* \r= retorna ao inicio da linha
+
+* \o= caractere nulo
+
+* \v= tabulaçao vertical
+
+* \\= caractere \
+
+* \'= caractere '
+
+* \"= caractere "
+
+* \?= caractere ?
+
+* \123= caractere relacionado ao codigo 123 em octal
+
+* \x12= caractere relacionado ao codigo 12 em hexadecimal
+
+### Exemplo:
 
     #include <stdio.h>
 
