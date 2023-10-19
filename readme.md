@@ -42,8 +42,6 @@ sintaxe declaração:
 
 ### exemplo:
 
-    
-```c
     #include <stdio.h>
 
     #define texto "Entrada e saida de dados."
@@ -102,7 +100,6 @@ cada form. representa cada variavel espectivamente ou se <1form.>= v1 e <2form.>
 ### exemplo:
 
 
-```c
     #include <stdio.h>
 
     int main()
