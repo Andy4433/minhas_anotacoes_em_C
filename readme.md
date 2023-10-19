@@ -27,30 +27,30 @@ sintaxe declaração:
 
 ### exemplo:
 
-        #include <stdio.h>
+    #include <stdio.h>
 
-        #define texto "Entrada e saida de dados."
+    #define texto "Entrada e saida de dados."
 
-        int main()
-        {
-            printf("%s\n", texto);
+    int main()
+    {
+        printf("%s\n", texto);
 
-            int idade = 0;
-            float altura = 0.0;
-            char nome[50] = "";
+        int idade = 0;
+        float altura = 0.0;
+        char nome[50] = "";
 
-            printf("digita sua idade:");
-            scanf("\n%d", &idade);
+        printf("digita sua idade:");
+        scanf("\n%d", &idade);
 
-            printf("digita sua altura:");
-            scanf("\n%f", &altura);
+        printf("digita sua altura:");
+        scanf("\n%f", &altura);
 
-            printf("digite seu nome: ");
-            scanf("\n%s", nome);
+        printf("digite seu nome: ");
+        scanf("\n%s", nome);
 
-            printf("olá %s, que bom de conhecer!!.\n Sua altura é de %.2f, muito bom para sua idade %d.\n", nome, altura, idade);
-            
-        }
+        printf("olá %s, que bom de conhecer!!.\n Sua altura é de %.2f, muito bom para sua idade %d.\n", nome, altura, idade);
+        
+    }
 
 
 
