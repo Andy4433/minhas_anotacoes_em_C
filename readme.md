@@ -2,12 +2,12 @@
 
 ## como rodar Seu programa
 
-C++:
+### C++:
 
     g++ <Seu_programa.c++> -o <Seu_programa>
     ./Variaveis
 
-C:
+### C:
 
     make <Seu_programa>
 
@@ -266,13 +266,13 @@ Ela permite que você teste várias condições alternativas quando a condição
 
 sintaxe:
 
-if (<condição1>) { <bloco de código a ser executado se a condição1 for verdadeira>}
+    if (<condição1>) { <bloco de código a ser executado se a condição1 for verdadeira>}
 
-else if (<condição2>) { <bloco de código a ser executado se a condição2 for verdadeira>}
+    else if (<condição2>) { <bloco de código a ser executado se a condição2 for verdadeira>}
 
-else if (<condição3>) { <bloco de código a ser executado se a condição3 for verdadeira>}
+    else if (<condição3>) { <bloco de código a ser executado se a condição3 for verdadeira>}
 
-else {<bloco de código a ser executado se nenhuma das condições anteriores for verdadeira>}
+    else {<bloco de código a ser executado se nenhuma das condições anteriores for verdadeira>}
 
 exemplo:
 
