@@ -1,5 +1,16 @@
 # Programação em C
 
+## como rodar Seu programa
+
+C++:
+
+    g++ <Seu_programa.c++> -o <Seu_programa>
+    ./Variaveis
+
+C:
+
+    make <Seu_programa>
+
 ## Variaveis:
 
 Variaveis são espaço da memoria para amazenar dados.
