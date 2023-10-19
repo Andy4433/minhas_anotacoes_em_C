@@ -5,9 +5,10 @@
 Variaveis são espaço da memoria para amazenar dados.
 
 ### sintaxe:
-declaraçao: <tipo><nome>;
+    declaraçao: <tipo><nome>;
 
-nomeclatura: 
+Nomeclatura:
+
 * não pode numero 1ª posição.
 
 * não pode caracteres especiais.
@@ -31,14 +32,16 @@ nomeclatura:
 
 operador = oque esta á direita é atribuido á variavel que está á esquerda o operador:
 
-sintaxe: <variavel> = <informação>;
+sintaxe: 
+
+    <variavel> = <informação>;
 
 constantes diretiva "#define": cria-se um identicador para um dado de qualquer tipo
 mesma regra de nomenclatura de variaveis
 
 sintaxe declaração:
 
-#define <nome> <valor>
+    #define <nome> <valor>
 
 ### exemplo:
 
@@ -70,7 +73,11 @@ sintaxe declaração:
 
 ## Saida de dados:
 
-sintaxe:  printf("<texto>", <v1>,<v2>,...,<vn>); posso ter nenhum texto com varias variavei, tambem com texto e sem variavel ou os dois juntos
+sintaxe:  
+
+    printf("<texto>", <v1>,<v2>,...,<vn>); 
+
+posso ter nenhum texto com varias variavei, tambem com texto e sem variavel ou os dois juntos
 
 * d ou i= numeros do tipo int
 
