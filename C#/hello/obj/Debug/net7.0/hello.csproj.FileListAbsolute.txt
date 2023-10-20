@@ -1,0 +1,15 @@
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/bin/Debug/net7.0/hello
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/bin/Debug/net7.0/hello.deps.json
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/bin/Debug/net7.0/hello.runtimeconfig.json
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/bin/Debug/net7.0/hello.dll
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/bin/Debug/net7.0/hello.pdb
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/hello.csproj.AssemblyReference.cache
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/hello.GeneratedMSBuildEditorConfig.editorconfig
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/hello.AssemblyInfoInputs.cache
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/hello.AssemblyInfo.cs
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/hello.csproj.CoreCompileInputs.cache
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/hello.dll
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/refint/hello.dll
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/hello.pdb
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/hello.genruntimeconfig.cache
+/home/andys/projetos/minhas_anotacoes_em_C/C#/hello/obj/Debug/net7.0/ref/hello.dll
