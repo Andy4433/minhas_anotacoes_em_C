@@ -9,7 +9,7 @@
 // else if (<condição3>) { <bloco de código a ser executado se a condição3 for verdadeira>}
 // else {<bloco de código a ser executado se nenhuma das condições anteriores for verdadeira>}
 
-
+#include <stdio.h>
 int main()
 {
     float nota1, nota2, nota3, media;
