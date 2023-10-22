@@ -5,11 +5,12 @@
 ### C++:
 
     g++ <Seu_programa.c++> -o <Seu_programa>
-    ./Variaveis
+    ./<Seu_programa>
 
 ### C:
 
     make <Seu_programa>
+    ./<Seu_programa>
 
 ## Variaveis:
 
