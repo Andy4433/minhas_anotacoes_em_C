@@ -1,6 +1,6 @@
 ### C++
 
-<img align="right" src="https://i.makeagif.com/media/3-24-2016/JrSj8G.gif" width="250" alt="Eleno">
+<img align="right" src="https://i.makeagif.com/media/3-24-2016/JrSj8G.gif" width="300" alt="Eleno">
 
 
 Extensão do C: C++ é uma extensão do C e herda muitas das características do C, incluindo a capacidade de programação de baixo nível. No entanto, C++ também introduz recursos de programação orientada a objetos.
