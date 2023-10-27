@@ -38,7 +38,7 @@ Em resumo C é uma linguagem de programação de baixo nível e procedural, enqu
 </details>
 
 ## Variaveis:
-<details>
+
 
 <img align="right" src="https://noic.com.br/wp-content/uploads/2021/07/scene1.gif" width="200" alt="Variaveis">
 
@@ -111,11 +111,9 @@ sintaxe declaração:
         
     }
 
- </details>
 
 ## Saida de dados:
 
- <details>
 
 sintaxe:  
 
@@ -178,11 +176,8 @@ posso ter nenhum texto com varias variavei, tambem com texto e sem variavel ou o
         printf("Dado de texto: %s. \n", "testando");
     }
 
- </details>
 
 ## Entrada de dados:
-
-<details>
 
 sintaxe: 
 
@@ -231,11 +226,11 @@ cada form. representa cada variavel espectivamente ou se <1form.>= v1 e <2form.>
         printf("ano informado: %d.\n", ano);
     }
 
-</details>
+
 
 ## Operadores:
 
-<details>
+
 
 Operadores: +,-,*,/ e % -- existe precedencia entre os operadores
 
@@ -294,11 +289,10 @@ atribuiçao com divisao: /=
         printf(" Dado depois do decremento: %d.\n", dado);
     }
 
-</details>
+
 
 ## If e else:
 
-<details>
 
 if-else:
 
@@ -349,11 +343,11 @@ exemplo:
         }
     }
 
-</details>
+
 
 ## loops while:
 
-<details>
+
 
 um erro comum de uma variavel onde o conteudo nao é conhecido pelo programador o esqueceu de colocar a instruçao isso é um erro sermantico
 
@@ -404,4 +398,3 @@ CUIDADO: loop infinito
         return 0;
     }
 
-</details>   
