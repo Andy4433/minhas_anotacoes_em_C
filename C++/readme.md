@@ -27,6 +27,8 @@ STL (Standard Template Library): C++ possui uma biblioteca padrão chamada STL q
 
 ## iostream ou stdio.h ?
 
+ <details>
+
 C++, é geralmente preferível usar a biblioteca iostream em vez de <stdio.h> (ou cstdio em C++) para entrada e saída. Aqui estão algumas razões pelas quais iostream é mais comumente usada:
 
 Orientação a objetos: <iostream> é baseada em classes e objetos, o que torna a manipulação de entrada e saída mais orientada a objetos. Isso facilita a leitura e escrita de dados com tipos personalizados e fornece uma interface mais intuitiva.
@@ -41,23 +43,30 @@ Integrado com o sistema de exceções: iostream está integrado com o sistema de
 
 No entanto, <stdio.h> (ou cstdio em C++) ainda é amplamente usado, especialmente em código legado e em situações onde a interoperabilidade com código C é necessária. Além disso, em alguns cenários específicos de alto desempenho, stdio pode ser mais eficiente em termos de velocidade.
 
+</details>
+
+
 ## oistream
 
-    #include <iostream>
+ <details>
 
-    int main() {
-        // Para imprimir dados na saída padrão (normalmente a tela):
-        std::cout << "Olá, mundo!" << std::endl;
+´´´
 
-        // Para ler dados da entrada padrão:
-        int numero;
-        std::cout << "Digite um número: ";
-        std::cin >> numero;
-        std::cout << "Você digitou: " << numero << std::endl;
+#include <iostream>
 
-        return 0;
+int main() {
+// Para imprimir dados na saída padrão (normalmente a tela):
+    std::cout << "Olá, mundo!" << std::endl;
+
+// Para ler dados da entrada padrão:
+    int numero;
+    std::cout << "Digite um número: ";
+    std::cin >> numero;
+    std::cout << "Você digitou: " << numero << std::endl;
+    return 0;
     }
 
+´´´
 #include <iostream>: Isso inclui a biblioteca iostream para que você possa usar as classes e objetos relacionados a entrada e saída.
 
 std::cout: std::cout é um objeto da classe std::ostream, que é usado para imprimir dados na saída padrão.
@@ -81,4 +90,6 @@ std::cin >> numero;: Isso lê um número da entrada padrão e o armazena na vari
 std::cout << "Você digitou: " << numero << std::endl;: Isso imprime o número que o usuário digitou.
 
 return 0;: O programa termina e retorna 0 para indicar que foi executado com sucesso.
+
+</details>
 
