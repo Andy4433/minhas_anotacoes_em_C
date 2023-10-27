@@ -190,7 +190,7 @@ Basicamente, este programa é uma ferramenta para avaliar o quão fácil é ler 
 
 </details>
 
-## substitution
+### substitution
 <details>
 
 <img align="right" src="https://media.tenor.com/myntH7qWCCIAAAAC/substitui%C3%A7%C3%A3o-naruto.gif" width="250" alt="Substituição">
@@ -226,7 +226,6 @@ Resultado:
 O programa imprime a mensagem criptografada na tela. Agora, sua mensagem é como um segredo que só pode ser lido por alguém com a chave certa.
 Objetivo:
 Este programa é uma ferramenta para cifrar mensagens de texto. Ele usa uma chave para substituir as letras do alfabeto na sua mensagem e, assim, proteger seu conteúdo. É uma forma simples de criptografia que pode ser usada para manter suas mensagens privadas.
-
 </details>
 
 </details>
