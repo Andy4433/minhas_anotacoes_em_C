@@ -1,4 +1,4 @@
-# Programação em C
+# Programação em C/C++
 
 <img align="right" src="https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif" width="250" alt="Gif de programação em anime">
 
