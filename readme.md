@@ -29,7 +29,7 @@
 ## Variaveis:
 <details>
 
-<img align="right" src="https://noic.com.br/wp-content/uploads/2021/07/scene1.gif" width="100" alt="Variaveis">
+<img align="right" src="https://noic.com.br/wp-content/uploads/2021/07/scene1.gif" width="200" alt="Variaveis">
 
 
 Variaveis são espaço da memoria para amazenar dados.
