@@ -18,7 +18,7 @@ int main (void)
         cout << "enter heigth here: ";
         cin >> height;
     }
-    while (height < 1 || height > 8);
+    while (height < 1 );
     for  (row=0; row < height; row++)
     {
         for(space=0; space < height- row -1;space++)
