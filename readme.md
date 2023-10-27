@@ -1,8 +1,9 @@
 # Programação em C
 
- C é uma linguagem de programação de baixo nível e procedural, enquanto C++ estende o C com recursos de programação orientada a objetos. Ambas as linguagens têm aplicações em uma variedade de domínios, com C++ sendo mais comumente usado em desenvolvimento de software moderno devido à sua riqueza de recursos e flexibilidade.
- 
 <img align="right" src="https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif" width="250" alt="Gif de programação em anime">
+
+ C é uma linguagem de programação de baixo nível e procedural, enquanto C++ estende o C com recursos de programação orientada a objetos. Ambas as linguagens têm aplicações em uma variedade de domínios, com C++ sendo mais comumente usado em desenvolvimento de software moderno devido à sua riqueza de recursos e flexibilidade.
+
 
 
 
