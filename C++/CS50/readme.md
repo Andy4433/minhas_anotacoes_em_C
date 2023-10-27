@@ -50,7 +50,7 @@ O programa, portanto, solicita ao usuário a altura desejada para a escada (entr
 ## Pset01
 <details>
 
-## cash
+### cash
 
 <details>
 <img align="right" src="https://media.tenor.com/s5mXvJJIMnoAAAAC/money-piggy-bank.gif" width="250" alt="cofrinho">
@@ -58,31 +58,38 @@ O programa, portanto, solicita ao usuário a altura desejada para a escada (entr
 Este programa é uma parte do curso CS50 da Universidade de Harvard, chamada "Cash." O que ele faz é bastante simples: calcula o número mínimo de moedas que você precisa para representar uma quantia em centavos que você digita.
 
 * Inclusão de Bibliotecas:
+
 Primeiro, ele inclui algumas "ferramentas" que ajudam o programa a fazer coisas como mostrar mensagens na tela e fazer cálculos.
 
 * Função get_cents:
+
 Aqui, o programa pede que você insira o número de centavos que deseja. Ele verifica se o valor é maior ou igual a zero (porque não faz sentido ter centavos negativos).
 
 * Funções calculate_quarters, calculate_dimes, calculate_nickels e calculate_pennies:
+
 Essas funções são como pequenas máquinas de contar moedas. Elas calculam quantos quartos, dimes, nickels e pennies são necessários para representar a quantia de centavos que você digitou. Imagine contar as moedas na sua mão até que não seja mais possível contar mais do mesmo tipo.
 
 * Função main:
+
 Aqui, o programa começa a funcionar de verdade. Ele chama a função get_cents para obter o número de centavos que você quer.
 
 * Cálculo das Moedas:
+
 O programa começa a calcular o número de quartos, dimes, nickels e pennies. À medida que ele faz esses cálculos, ele vai subtraindo essas moedas dos centavos que ainda precisam ser contados.
 
 * Cálculo do Total de Moedas:
+
 Finalmente, ele adiciona o número de todas as moedas para saber quantas você precisa no total.
 
 * Impressão do Resultado:
+
 Ele mostra o resultado na tela, dizendo quantas moedas você precisa no total.
 
 Em resumo, esse programa é como um caixa eletrônico que calcula o troco para você de forma rápida e eficiente. É uma forma de simular a contagem de moedas e notas em um caixa eletrônico.
 
 </details>
 
-## credit
+### credit
 
 <details>
 
@@ -91,27 +98,57 @@ Em resumo, esse programa é como um caixa eletrônico que calcula o troco para v
 Este programinha faz parte do curso CS50 da Universidade de Harvard, chamado "Credit". Ele se propõe a fazer uma coisa muito importante: verificar se o número de cartão de crédito que você insere é válido e até mesmo descobrir qual empresa emitiu o cartão. Aqui está o que ele faz:
 
 * Inclusão de Bibliotecas:
+
 No começo, ele meio que puxa algumas "ferramentas" para poder escrever coisas na tela e também para fazer alguns cálculos. E é como dizer, "Ei, programa, você precisa dessas coisas para funcionar direito".
 
 * Função main:
+
 Aqui é onde a ação acontece. Ele pede para você digitar um número de cartão de crédito, e então faz um monte de cálculos nos números desse cartão. O programa também tenta descobrir quantos dígitos o número do cartão tem.
 
 * Validação do Número de Cartão de Crédito:
+
 Ele quebra o número do cartão em pedacinhos menores, que são como quebras de 16 dígitos (do card1 ao card16). Depois, ele faz algumas coisas malucas com esses dígitos, como duplicar alguns e somar os dígitos resultantes. Essas regras são baseadas nas empresas de cartão de crédito.
 
 * Soma dos Dígitos:
+
 O programa adiciona todos os resultados desses cálculos estranhos e obtém a soma total em duas partes, sum1 e sum2.
 
 * Identificação da Empresa do Cartão:
+
 Aqui, o programa olha para o número de dígitos do cartão e tenta ver se ele se encaixa em faixas específicas que identificam qual empresa emitiu o cartão. Como se fosse um detetive de cartão de crédito!
 
 * Verificação de Validade:
+
 É a hora da verdade! O programa verifica se a soma total (sum3) pode ser dividida por 10. Se não puder, o cartão é rejeitado e o programa mostra "invalid" na tela.
 
 * Verificação da Empresa do Cartão:
+
 Por último, ele confere se o número do cartão se encaixa nas faixas específicas de identificação das empresas, como Visa, American Express (Amex) e Mastercard. Se tudo estiver certo, ele diz o nome da empresa na tela.
 
 Em resumo, o programa faz uma verificação no seu número de cartão de crédito para ver se ele é válido e ainda tenta adivinhar qual empresa emitiu o cartão. É como um Sherlock Holmes dos cartões de crédito!
 
 </details>
+</details>
+
+## Pset02
+<details>
+
+### caesar:
+<details>
+
+<img align="right" src="https://media.tenor.com/IR-dL-oKeOUAAAAd/jojo-caesar.gif" width="250" alt="cash">
+
+Passo 1: Primeiro, o programa verifica se você digitou tudo corretamente. Ele não quer funcionar a menos que você tenha dado a ele duas coisas: o nome do programa e um número mágico chamado "chave". Se você esquecer disso, o programa vai reclamar.
+
+Passo 2: A "chave" é como a senha para o cofre. É um número que diz ao programa quantos lugares as letras do seu texto serão deslocadas no alfabeto. E, como qualquer senha, você precisa digitá-la corretamente, ou o programa não vai entender.
+
+Passo 3: Agora, o programa pede para você digitar o texto que deseja esconder ou embaralhar. Você digita qualquer coisa que queira, uma mensagem, uma piada, o que vier à mente.
+
+Passo 4: O segredo está aqui! O programa pega o texto que você digitou e o transforma com a tal "chave". Ele mexe nas letras, mas cuida para que as letras maiúsculas continuem maiúsculas e as minúsculas, minúsculas. Os números e símbolos ficam do jeito que estão.
+
+Passo 5: Finalmente, o programa te mostra o texto que passou pela transformação mágica. Você verá o seu texto original, mas agora meio embaralhado por causa da "chave".
+
+E é assim que funciona o "caesar". Ele é uma maneira simples de esconder mensagens, mas não é a mais segura. Portanto, use com sabedoria e apenas para coisas divertidas!
+</details>
+
 </details>
