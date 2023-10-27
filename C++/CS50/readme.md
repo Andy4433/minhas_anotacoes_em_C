@@ -87,8 +87,7 @@ O programa permite que o usuário insira uma quantia em centavos e, em seguida, 
 
 ## credit
 
-<img align="right" src="https://pa1.aminoapps.com/6910/9679d0dc653d0b9f7d4df46f4f3f3126694231e1r1-500-455_hq.gif
-" width="250" alt="dinheiro voando">
+<img align="right" src="https://media.tenor.com/USxC_Lm8i2AAAAAC/dinheiro-silvio.gif" width="250" alt="cash">
 
 Este programa em C++ é parte do problema chamado "Credit" do curso CS50 da Universidade de Harvard. O objetivo deste programa é verificar a validade de números de cartão de crédito e determinar qual empresa emitiu o cartão com base em seus dígitos e em uma fórmula de soma. Vou explicar a sintaxe e o propósito deste programa passo a passo:
 
