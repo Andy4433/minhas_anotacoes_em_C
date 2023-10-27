@@ -190,4 +190,43 @@ Basicamente, este programa é uma ferramenta para avaliar o quão fácil é ler 
 
 </details>
 
+## substitution
+<details>
+
+<img align="right" src="https://media.tenor.com/myntH7qWCCIAAAAC/substitui%C3%A7%C3%A3o-naruto.gif" width="250" alt="Substituição">
+
+Propósito:
+Este programa, chamado "substitution", é como um código secreto para criptografar mensagens. Ele substitui as letras do alfabeto em uma mensagem de acordo com uma chave fornecida. É como uma máquina de escrever cifrada.
+
+Estrutura:
+
+Inclusão de Bibliotecas:
+
+O programa inclui algumas ferramentas padrão do C para entrada/saída e manipulação de strings, como abrir uma caixa de ferramentas.
+Função main:
+
+Esta é a parte principal do programa. É onde tudo começa.
+Verificação da Chave:
+
+O programa verifica se você forneceu uma chave na linha de comando. Se você não forneceu, ele diz "Hey, você precisa de uma chave!" e o programa para.
+A chave é um código secreto que determina como as letras serão substituídas.
+Validação da Chave:
+
+Ele verifica se a chave tem exatamente 26 caracteres, porque o alfabeto tem 26 letras.
+Em seguida, ele verifica se a chave contém apenas letras e se não há letras repetidas. Queremos uma chave única e sem números ou símbolos.
+Entrada de Texto:
+
+Agora, você fornece o texto que deseja criptografar. Ele armazena o texto na variável plaintext.
+Cifragem:
+
+A parte mágica! O programa passa por cada letra no seu texto e verifica qual letra ela corresponde na chave. Em seguida, ele imprime a letra correspondente na tela. Isso cria uma versão criptografada da sua mensagem.
+Ele cuida das letras maiúsculas e minúsculas separadamente para que a criptografia funcione para ambas.
+Resultado:
+
+O programa imprime a mensagem criptografada na tela. Agora, sua mensagem é como um segredo que só pode ser lido por alguém com a chave certa.
+Objetivo:
+Este programa é uma ferramenta para cifrar mensagens de texto. Ele usa uma chave para substituir as letras do alfabeto na sua mensagem e, assim, proteger seu conteúdo. É uma forma simples de criptografia que pode ser usada para manter suas mensagens privadas.
+
+</details>
+
 </details>
