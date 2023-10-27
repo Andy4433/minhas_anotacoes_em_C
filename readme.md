@@ -4,13 +4,16 @@ Neste readme eu irei falar de geral tanto do C quanto do C++, quando eu for para
 
 <h1 align="center"> Sumário </h1>
 
-01. [oque são essas linguagens?](#que-são-essas-linguagens?)
-02. [Variaveis](###Variaveis)
-03. [Saida de dados](#Saida-de-dados)
-04. [Entrada de dados](#Entrada-de-dados)
-05. [Operadores](#Operadores)
-06. [If e else](#If-e-else)
-
+1.0 [oque são essas linguagens?](#que-são-essas-linguagens?)
+2.0 [Variaveis](#Variaveis)
+2.1 [sintaxe](#sintaxe)
+2.2 [tipos de variaveis](#tipos-de-variaveis)
+2.3 [exemplo](#exemplo)
+3.0 [Saida de dados](#Saida-de-dados)
+4.0 [Entrada de dados](#Entrada-de-dados)
+5.0 [Operadores](#Operadores)
+6.0 [If e else](#If-e-else)
+7.0 [loops while](#loops-while)
 
 ## oque são essas linguagens? 
 
