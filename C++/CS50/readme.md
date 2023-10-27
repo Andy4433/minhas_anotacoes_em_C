@@ -4,11 +4,11 @@ Esse são os codigos que eu fiz e estudei no curso CS50 esse repositorio não es
 
 ## Mario
 
-<details>
-
 <img align="right" src="https://media.tenor.com/rt_mMSl7f04AAAAj/change-power-up-mario.gif" width="250" alt="Gif do mario">
 
 em C++ que implementa o problema chamado "Mario" do curso CS50 da Universidade de Harvard. O problema consiste em criar um padrão de escadas de blocos (semelhantes ao jogo "Super Mario") com base na altura fornecida pelo usuário. Vou explicar a sintaxe e o propósito deste programa passo a passo.
+
+<details>
 
 Inclusão de Bibliotecas:
 
@@ -52,10 +52,12 @@ O programa, portanto, solicita ao usuário a altura desejada para a escada (entr
 
 ### cash
 
-<details>
 <img align="right" src="https://media.tenor.com/s5mXvJJIMnoAAAAC/money-piggy-bank.gif" width="250" alt="cofrinho">
 
 Este programa é uma parte do curso CS50 da Universidade de Harvard, chamada "Cash." O que ele faz é bastante simples: calcula o número mínimo de moedas que você precisa para representar uma quantia em centavos que você digita.
+
+
+<details>
 
 * Inclusão de Bibliotecas:
 
@@ -91,11 +93,11 @@ Em resumo, esse programa é como um caixa eletrônico que calcula o troco para v
 
 ### credit
 
-<details>
-
 <img align="right" src="https://media.tenor.com/USxC_Lm8i2AAAAAC/dinheiro-silvio.gif" width="250" alt="cash">
 
 Este programinha faz parte do curso CS50 da Universidade de Harvard, chamado "Credit". Ele se propõe a fazer uma coisa muito importante: verificar se o número de cartão de crédito que você insere é válido e até mesmo descobrir qual empresa emitiu o cartão. Aqui está o que ele faz:
+
+<details>
 
 * Inclusão de Bibliotecas:
 
@@ -134,9 +136,12 @@ Em resumo, o programa faz uma verificação no seu número de cartão de crédit
 <details>
 
 ### caesar:
-<details>
 
 <img align="right" src="https://steamuserimages-a.akamaihd.net/ugc/478895907426358672/EFFC9103677B10B8FA67A1812424D1433EDEC025/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" width="250" alt="caesar jojo">
+
+O propósito do programa "caesar" no curso CS50 da Universidade de Harvard é criar uma implementação simples da cifra de César, uma técnica de criptografia que envolve a substituição de letras por outras letras do alfabeto, deslocando-as por um número fixo de posições. Este programa permite ao usuário criptografar mensagens de texto usando a cifra de César.
+
+<details>
 
 Passo 1: Primeiro, o programa verifica se você digitou tudo corretamente. Ele não quer funcionar a menos que você tenha dado a ele duas coisas: o nome do programa e um número mágico chamado "chave". Se você esquecer disso, o programa vai reclamar.
 
@@ -152,12 +157,14 @@ E é assim que funciona o "caesar". Ele é uma maneira simples de esconder mensa
 </details>
 
 ### Readability
-<details>
 
 <img align="right" src="https://i.pinimg.com/originals/66/9f/e4/669fe4c57105ade508c8b08796f91c25.gif" width="250" alt="Livros">
 
 Propósito:
 Este programa faz algo bem legal. Ele avalia o quão fácil ou difícil é ler um pedaço de texto. Basicamente, ele analisa o número de palavras, letras e sentenças no texto e calcula uma pontuação com base nisso. Em seguida, ele dá ao texto uma classificação de "legibilidade" com base nessa pontuação.
+
+
+<details>
 
 Estrutura:
 
@@ -191,12 +198,12 @@ Basicamente, este programa é uma ferramenta para avaliar o quão fácil é ler 
 </details>
 
 ### substitution
-<details>
 
 <img align="right" src="https://media.tenor.com/myntH7qWCCIAAAAC/substitui%C3%A7%C3%A3o-naruto.gif" width="250" alt="Substituição">
-
 Propósito:
 Este programa, chamado "substitution", é como um código secreto para criptografar mensagens. Ele substitui as letras do alfabeto em uma mensagem de acordo com uma chave fornecida. É como uma máquina de escrever cifrada.
+
+<details>
 
 Estrutura:
 
