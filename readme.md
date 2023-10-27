@@ -1,6 +1,7 @@
 # Programação em C
 
-![create-script](https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif)
+<img align="right" src="https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif" width="250" alt="Gif de programação em anime">
+
 
 
 ## como rodar Seu programa
