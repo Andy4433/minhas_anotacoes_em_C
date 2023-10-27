@@ -2,14 +2,15 @@
 
 Neste readme eu irei falar de geral tanto do C quanto do C++, quando eu for para POO ou algo especifico de cada linguagem eu irei criar um readme especifico elas.
 
-
-<p align="center">
-  <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-512.png" alt="Markdown Icon" width="300px" height="300px">
-</p>
-
 <h1 align="center"> Sumário </h1>
 
-01. [oque são essas linguagens?](#que---são---essas---linguagens?)
+01. [oque são essas linguagens?](#que-são-essas-linguagens?)
+02. [Variaveis](###Variaveis)
+03. [Saida de dados](#Saida-de-dados)
+04. [Entrada de dados](#Entrada-de-dados)
+05. [Operadores](#Operadores)
+06. [If e else](#If-e-else)
+
 
 ## oque são essas linguagens? 
 
