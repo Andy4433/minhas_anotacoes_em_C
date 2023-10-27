@@ -85,12 +85,6 @@ Nomeclatura:
 
 * double 64bits -1.7e308 a 1.7e308.
 
-|char|Int| float|doubles|
-|a|1|1.50|2.65845654 |
-|b|2|2.65|2.98875854|
-|c|20|2.5874|4.778582|
-
-
 operador = oque esta á direita é atribuido á variavel que está á esquerda o operador:
 
 sintaxe: 
