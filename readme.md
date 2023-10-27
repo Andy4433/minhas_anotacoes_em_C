@@ -9,7 +9,7 @@ Neste readme eu irei falar de geral tanto do C quanto do C++, quando eu for para
 
 <h1 align="center"> Sumário </h1>
 
-01. [oque são essas linguagens?](#que são essas linguagens?)
+01. [oque são essas linguagens?](#que---são---essas---linguagens?)
 
 ## oque são essas linguagens? 
 
