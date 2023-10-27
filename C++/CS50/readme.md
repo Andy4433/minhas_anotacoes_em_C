@@ -87,6 +87,8 @@ O programa permite que o usuário insira uma quantia em centavos e, em seguida, 
 
 ## credit
 
+<details>
+
 <img align="right" src="https://media.tenor.com/USxC_Lm8i2AAAAAC/dinheiro-silvio.gif" width="250" alt="cash">
 
 Este programa em C++ é parte do problema chamado "Credit" do curso CS50 da Universidade de Harvard. O objetivo deste programa é verificar a validade de números de cartão de crédito e determinar qual empresa emitiu o cartão com base em seus dígitos e em uma fórmula de soma. Vou explicar a sintaxe e o propósito deste programa passo a passo:
@@ -123,3 +125,5 @@ Saída:
 
 O programa imprime "invalid" se o número do cartão não for válido ou não corresponder a nenhuma das empresas mencionadas.
 O programa permite ao usuário inserir um número de cartão de crédito e determina se o número é válido ou não, bem como a empresa emissora do cartão, se aplicável. É uma simulação de como os sistemas de verificação de cartões de crédito podem funcionar.
+
+</details>
