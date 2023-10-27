@@ -6,7 +6,7 @@ Esse são os codigos que eu fiz e estudei no curso CS50 esse repositorio não es
 
 <details>
 
-<img align="right" src="https://i.gifer.com/HhCZ.gif" width="250" alt="Gif do mario">
+<img align="right" src="https://media.tenor.com/rt_mMSl7f04AAAAj/change-power-up-mario.gif" width="250" alt="Gif do mario">
 
 em C++ que implementa o problema chamado "Mario" do curso CS50 da Universidade de Harvard. O problema consiste em criar um padrão de escadas de blocos (semelhantes ao jogo "Super Mario") com base na altura fornecida pelo usuário. Vou explicar a sintaxe e o propósito deste programa passo a passo.
 
