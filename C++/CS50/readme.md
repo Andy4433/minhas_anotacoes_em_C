@@ -55,36 +55,30 @@ O programa, portanto, solicita ao usuário a altura desejada para a escada (entr
 <details>
 <img align="right" src="https://media.tenor.com/s5mXvJJIMnoAAAAC/money-piggy-bank.gif" width="250" alt="cofrinho">
 
- parte do problema chamado "Cash" do curso CS50 da Universidade de Harvard. O objetivo deste programa é calcular o número mínimo de moedas (quartos, dimes, nickels e pennies) necessárias para representar uma quantia em centavos fornecida pelo usuário. Vou explicar a sintaxe e o propósito deste programa passo a passo:
+Este programa é uma parte do curso CS50 da Universidade de Harvard, chamada "Cash." O que ele faz é bastante simples: calcula o número mínimo de moedas que você precisa para representar uma quantia em centavos que você digita.
 
-Inclusão de Bibliotecas:
+* Inclusão de Bibliotecas:
+Primeiro, ele inclui algumas "ferramentas" que ajudam o programa a fazer coisas como mostrar mensagens na tela e fazer cálculos.
 
-#include <stdio.h>: Inclui a biblioteca padrão de entrada e saída em C, que é usada para impressão na tela.
-#include <iostream>: Inclui a biblioteca de entrada/saída do C++.
-using std::cout;, using std::cin;, using std::endl;: Declara o uso do espaço de nomes std para que você possa usar cout para impressão na tela, cin para entrada de dados e endl para uma nova linha.
-Função get_cents:
+* Função get_cents:
+Aqui, o programa pede que você insira o número de centavos que deseja. Ele verifica se o valor é maior ou igual a zero (porque não faz sentido ter centavos negativos).
 
-int get_cents(void): Essa função solicita ao usuário o número de centavos e retorna o valor inserido.
-Usa um loop do-while para garantir que a entrada seja maior ou igual a zero.
-Funções calculate_quarters, calculate_dimes, calculate_nickels e calculate_pennies:
+* Funções calculate_quarters, calculate_dimes, calculate_nickels e calculate_pennies:
+Essas funções são como pequenas máquinas de contar moedas. Elas calculam quantos quartos, dimes, nickels e pennies são necessários para representar a quantia de centavos que você digitou. Imagine contar as moedas na sua mão até que não seja mais possível contar mais do mesmo tipo.
 
-Cada uma dessas funções calcula o número de moedas de um determinado valor (quartos, dimes, nickels ou pennies) necessárias para representar a quantia em centavos fornecida como argumento.
-Elas usam um loop while para subtrair o valor da moeda correspondente do total de centavos e incrementar o contador dessa moeda até que a quantidade de centavos restantes seja menor que o valor da moeda.
-Função main:
+* Função main:
+Aqui, o programa começa a funcionar de verdade. Ele chama a função get_cents para obter o número de centavos que você quer.
 
-int main(void): Esta é a função principal do programa, que não recebe argumentos e retorna um valor inteiro.
-Chama a função get_cents para obter a entrada do usuário e armazena o valor em cents.
-Cálculo das Moedas:
+* Cálculo das Moedas:
+O programa começa a calcular o número de quartos, dimes, nickels e pennies. À medida que ele faz esses cálculos, ele vai subtraindo essas moedas dos centavos que ainda precisam ser contados.
 
-Calcula o número de quartos, dimes, nickels e pennies usando as funções calculate_quarters, calculate_dimes, calculate_nickels e calculate_pennies, respectivamente.
-À medida que cada tipo de moeda é calculado, o valor correspondente é subtraído dos centavos restantes.
-Cálculo do Total de Moedas:
+* Cálculo do Total de Moedas:
+Finalmente, ele adiciona o número de todas as moedas para saber quantas você precisa no total.
 
-Calcula o total de moedas somando o número de quartos, dimes, nickels e pennies.
-Impressão do Resultado:
+* Impressão do Resultado:
+Ele mostra o resultado na tela, dizendo quantas moedas você precisa no total.
 
-printf("%i moedas\n", coins);: Isso imprime na tela o número total de moedas necessárias para representar a quantia de centavos inserida.
-O programa permite que o usuário insira uma quantia em centavos e, em seguida, calcula a quantidade mínima de moedas necessárias para representar essa quantia em quartos, dimes, nickels e pennies. O programa é uma simulação simples de um caixa eletrônico, onde o objetivo é fornecer o menor número de moedas possível como troco.
+Em resumo, esse programa é como um caixa eletrônico que calcula o troco para você de forma rápida e eficiente. É uma forma de simular a contagem de moedas e notas em um caixa eletrônico.
 
 </details>
 
@@ -94,40 +88,30 @@ O programa permite que o usuário insira uma quantia em centavos e, em seguida, 
 
 <img align="right" src="https://media.tenor.com/USxC_Lm8i2AAAAAC/dinheiro-silvio.gif" width="250" alt="cash">
 
-Este programa em C++ é parte do problema chamado "Credit" do curso CS50 da Universidade de Harvard. O objetivo deste programa é verificar a validade de números de cartão de crédito e determinar qual empresa emitiu o cartão com base em seus dígitos e em uma fórmula de soma. Vou explicar a sintaxe e o propósito deste programa passo a passo:
+Este programinha faz parte do curso CS50 da Universidade de Harvard, chamado "Credit". Ele se propõe a fazer uma coisa muito importante: verificar se o número de cartão de crédito que você insere é válido e até mesmo descobrir qual empresa emitiu o cartão. Aqui está o que ele faz:
 
-Inclusão de Bibliotecas:
+* Inclusão de Bibliotecas:
+No começo, ele meio que puxa algumas "ferramentas" para poder escrever coisas na tela e também para fazer alguns cálculos. E é como dizer, "Ei, programa, você precisa dessas coisas para funcionar direito".
 
-#include <stdio.h>: Inclui a biblioteca padrão de entrada e saída em C, usada para impressão na tela.
-#include <iostream>: Inclui a biblioteca de entrada/saída do C++.
-using std::cout;, using std::cin;, using std::endl;: Declara o uso do espaço de nomes std para que você possa usar cout para impressão na tela, cin para entrada de dados e endl para uma nova linha.
-#include <string>: Inclui a biblioteca C++ para manipulação de strings, embora não seja usada neste código.
-Função main:
+* Função main:
+Aqui é onde a ação acontece. Ele pede para você digitar um número de cartão de crédito, e então faz um monte de cálculos nos números desse cartão. O programa também tenta descobrir quantos dígitos o número do cartão tem.
 
-int main(void): Esta é a função principal do programa, que não recebe argumentos e retorna um valor inteiro.
-Solicita ao usuário que insira um número de cartão de crédito, armazenando-o em uma variável chamada card.
-Validação do Número de Cartão de Crédito:
+* Validação do Número de Cartão de Crédito:
+Ele quebra o número do cartão em pedacinhos menores, que são como quebras de 16 dígitos (do card1 ao card16). Depois, ele faz algumas coisas malucas com esses dígitos, como duplicar alguns e somar os dígitos resultantes. Essas regras são baseadas nas empresas de cartão de crédito.
 
-Divide o número do cartão em 16 dígitos separados (card1 a card16).
-Realiza uma série de cálculos em cada conjunto de dígitos, como a duplicação de alguns dígitos, seguida de adição dos dígitos resultantes, conforme as regras das principais empresas de cartão de crédito.
-Soma dos Dígitos:
+* Soma dos Dígitos:
+O programa adiciona todos os resultados desses cálculos estranhos e obtém a soma total em duas partes, sum1 e sum2.
 
-Calcula a soma total de sum1 e sum2 usando os resultados dos cálculos de dígitos.
-Identificação da Empresa do Cartão:
+* Identificação da Empresa do Cartão:
+Aqui, o programa olha para o número de dígitos do cartão e tenta ver se ele se encaixa em faixas específicas que identificam qual empresa emitiu o cartão. Como se fosse um detetive de cartão de crédito!
 
-Determina o comprimento do número do cartão contando quantos dígitos existem usando um loop while.
-Em seguida, isola os primeiros dígitos do cartão para verificar se o número se encaixa nas faixas específicas de identificação de empresa.
-Verificação de Validade:
+* Verificação de Validade:
+É a hora da verdade! O programa verifica se a soma total (sum3) pode ser dividida por 10. Se não puder, o cartão é rejeitado e o programa mostra "invalid" na tela.
 
-Verifica se a soma total (sum3) é divisível por 10. Se não for, o cartão é considerado inválido e o programa imprime "invalid" na tela.
-Verificação da Empresa do Cartão:
+* Verificação da Empresa do Cartão:
+Por último, ele confere se o número do cartão se encaixa nas faixas específicas de identificação das empresas, como Visa, American Express (Amex) e Mastercard. Se tudo estiver certo, ele diz o nome da empresa na tela.
 
-Verifica se o número do cartão se encaixa nas faixas específicas de identificação de empresa, como Visa, American Express (Amex) e Mastercard.
-Se for encontrado um número válido e as condições corretas forem atendidas, o programa imprime o nome da empresa do cartão.
-Saída:
-
-O programa imprime "invalid" se o número do cartão não for válido ou não corresponder a nenhuma das empresas mencionadas.
-O programa permite ao usuário inserir um número de cartão de crédito e determina se o número é válido ou não, bem como a empresa emissora do cartão, se aplicável. É uma simulação de como os sistemas de verificação de cartões de crédito podem funcionar.
+Em resumo, o programa faz uma verificação no seu número de cartão de crédito para ver se ele é válido e ainda tenta adivinhar qual empresa emitiu o cartão. É como um Sherlock Holmes dos cartões de crédito!
 
 </details>
 </details>
