@@ -47,6 +47,9 @@ O programa, portanto, solicita ao usuário a altura desejada para a escada (entr
 
 </details>
 
+## Pset01
+<details>
+
 ## cash
 
 <details>
@@ -126,4 +129,5 @@ Saída:
 O programa imprime "invalid" se o número do cartão não for válido ou não corresponder a nenhuma das empresas mencionadas.
 O programa permite ao usuário inserir um número de cartão de crédito e determina se o número é válido ou não, bem como a empresa emissora do cartão, se aplicável. É uma simulação de como os sistemas de verificação de cartões de crédito podem funcionar.
 
+</details>
 </details>
