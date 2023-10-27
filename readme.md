@@ -27,7 +27,8 @@ Neste readme eu irei falar de geral tanto do C quanto do C++, quando eu for para
     - 7.1 [comando while](#comando-while)
 
 
-## oque são essas linguagens? 
+<h1 align="center"> oque são essas linguagens?  </h1>
+
 
 <img align="right" src="https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif" width="250" alt="Gif de programação em anime">
 
