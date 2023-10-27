@@ -136,7 +136,7 @@ Em resumo, o programa faz uma verificação no seu número de cartão de crédit
 ### caesar:
 <details>
 
-<img align="right" src="https://media.tenor.com/IR-dL-oKeOUAAAAd/jojo-caesar.gif" width="250" alt="caesar jojo">
+<img align="right" src="https://steamuserimages-a.akamaihd.net/ugc/478895907426358672/EFFC9103677B10B8FA67A1812424D1433EDEC025/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" width="250" alt="caesar jojo">
 
 Passo 1: Primeiro, o programa verifica se você digitou tudo corretamente. Ele não quer funcionar a menos que você tenha dado a ele duas coisas: o nome do programa e um número mágico chamado "chave". Se você esquecer disso, o programa vai reclamar.
 
