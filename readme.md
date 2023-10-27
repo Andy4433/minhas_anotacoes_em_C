@@ -6,7 +6,7 @@ Neste readme eu irei falar de geral tanto do C quanto do C++, quando eu for para
 
 <img align="right" src="https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif" width="250" alt="Gif de programação em anime">
 
- C é uma linguagem de programação de baixo nível e procedural, enquanto C++ estende o C com recursos de programação orientada a objetos. Ambas as linguagens têm aplicações em uma variedade de domínios, com C++ sendo mais comumente usado em desenvolvimento de software moderno devido à sua riqueza de recursos e flexibilidade.
+Em resumo C é uma linguagem de programação de baixo nível e procedural, enquanto C++ estende o C com recursos de programação orientada a objetos. Você pode fazer muitas coisas com ambas as linguagens, mas o C++ é mais popular atualmente para desenvolvimento de software, porque é mais flexível e cheio de recursos uteis.
 
 ## como rodar Seu programa
 
