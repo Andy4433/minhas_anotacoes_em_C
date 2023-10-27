@@ -67,7 +67,7 @@ std::endl: Isso insere uma nova linha na saída, movendo o cursor para a próxim
 
 std::cin: std::cin é um objeto da classe std::istream, que é usado para ler dados da entrada padrão.
 
->>: O operador de extração (>>) é usado para extrair dados de std::cin. Ele permite que você leia valores de diferentes tipos.
+(>>:) O operador de extração (>>) é usado para extrair dados de std::cin. Ele permite que você leia valores de diferentes tipos.
 
 int numero;: Declara uma variável numero para armazenar o número que o usuário irá digitar.
 

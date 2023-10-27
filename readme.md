@@ -3,14 +3,17 @@
 ## como rodar Seu programa
 
 ### C++:
-
+  <details>
     g++ <Seu_programa.c++> -o <Seu_programa>
     ./<Seu_programa>
+  </details>
 
 ### C:
 
+ <details>
     make <Seu_programa>
     ./<Seu_programa>
+</details>
 
 ## Variaveis:
 
