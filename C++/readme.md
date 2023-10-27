@@ -50,23 +50,21 @@ No entanto, <stdio.h> (ou cstdio em C++) ainda é amplamente usado, especialment
 
  <details>
 
-´´´
+    #include <iostream>
 
-#include <iostream>
+    int main() {
+        // Para imprimir dados na saída padrão (normalmente a tela):
+        std::cout << "Olá, mundo!" << std::endl;
 
-int main() {
-// Para imprimir dados na saída padrão (normalmente a tela):
-    std::cout << "Olá, mundo!" << std::endl;
+        // Para ler dados da entrada padrão:
+        int numero;
+        std::cout << "Digite um número: ";
+        std::cin >> numero;
+        std::cout << "Você digitou: " << numero << std::endl;
 
-// Para ler dados da entrada padrão:
-    int numero;
-    std::cout << "Digite um número: ";
-    std::cin >> numero;
-    std::cout << "Você digitou: " << numero << std::endl;
-    return 0;
+        return 0;
     }
 
-´´´
 #include <iostream>: Isso inclui a biblioteca iostream para que você possa usar as classes e objetos relacionados a entrada e saída.
 
 std::cout: std::cout é um objeto da classe std::ostream, que é usado para imprimir dados na saída padrão.
