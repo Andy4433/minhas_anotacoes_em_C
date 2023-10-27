@@ -84,3 +84,43 @@ printf("%i moedas\n", coins);: Isso imprime na tela o número total de moedas ne
 O programa permite que o usuário insira uma quantia em centavos e, em seguida, calcula a quantidade mínima de moedas necessárias para representar essa quantia em quartos, dimes, nickels e pennies. O programa é uma simulação simples de um caixa eletrônico, onde o objetivo é fornecer o menor número de moedas possível como troco.
 
 </details>
+
+## credit
+
+<img align="right" src="https://pa1.aminoapps.com/6910/9679d0dc653d0b9f7d4df46f4f3f3126694231e1r1-500-455_hq.gif
+" width="250" alt="dinheiro voando">
+
+Este programa em C++ é parte do problema chamado "Credit" do curso CS50 da Universidade de Harvard. O objetivo deste programa é verificar a validade de números de cartão de crédito e determinar qual empresa emitiu o cartão com base em seus dígitos e em uma fórmula de soma. Vou explicar a sintaxe e o propósito deste programa passo a passo:
+
+Inclusão de Bibliotecas:
+
+#include <stdio.h>: Inclui a biblioteca padrão de entrada e saída em C, usada para impressão na tela.
+#include <iostream>: Inclui a biblioteca de entrada/saída do C++.
+using std::cout;, using std::cin;, using std::endl;: Declara o uso do espaço de nomes std para que você possa usar cout para impressão na tela, cin para entrada de dados e endl para uma nova linha.
+#include <string>: Inclui a biblioteca C++ para manipulação de strings, embora não seja usada neste código.
+Função main:
+
+int main(void): Esta é a função principal do programa, que não recebe argumentos e retorna um valor inteiro.
+Solicita ao usuário que insira um número de cartão de crédito, armazenando-o em uma variável chamada card.
+Validação do Número de Cartão de Crédito:
+
+Divide o número do cartão em 16 dígitos separados (card1 a card16).
+Realiza uma série de cálculos em cada conjunto de dígitos, como a duplicação de alguns dígitos, seguida de adição dos dígitos resultantes, conforme as regras das principais empresas de cartão de crédito.
+Soma dos Dígitos:
+
+Calcula a soma total de sum1 e sum2 usando os resultados dos cálculos de dígitos.
+Identificação da Empresa do Cartão:
+
+Determina o comprimento do número do cartão contando quantos dígitos existem usando um loop while.
+Em seguida, isola os primeiros dígitos do cartão para verificar se o número se encaixa nas faixas específicas de identificação de empresa.
+Verificação de Validade:
+
+Verifica se a soma total (sum3) é divisível por 10. Se não for, o cartão é considerado inválido e o programa imprime "invalid" na tela.
+Verificação da Empresa do Cartão:
+
+Verifica se o número do cartão se encaixa nas faixas específicas de identificação de empresa, como Visa, American Express (Amex) e Mastercard.
+Se for encontrado um número válido e as condições corretas forem atendidas, o programa imprime o nome da empresa do cartão.
+Saída:
+
+O programa imprime "invalid" se o número do cartão não for válido ou não corresponder a nenhuma das empresas mencionadas.
+O programa permite ao usuário inserir um número de cartão de crédito e determina se o número é válido ou não, bem como a empresa emissora do cartão, se aplicável. É uma simulação de como os sistemas de verificação de cartões de crédito podem funcionar.
