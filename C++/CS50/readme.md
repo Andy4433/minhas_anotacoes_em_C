@@ -237,3 +237,70 @@ Este programa é uma ferramenta para cifrar mensagens de texto. Ele usa uma chav
 </details>
 
 </details>
+
+## Pset03
+<details>
+
+### plurarity
+
+O programa "plurality" é como uma simulação de uma eleição simples. Pense em uma eleição para a turma escolher um representante. Aqui está o que o código faz:
+
+<details>
+Ele começa incluindo algumas bibliotecas, como stdio.h para entrada e saída e string.h para trabalhar com strings.
+
+Em seguida, define uma constante chamada MAX, que basicamente nos diz o número máximo de candidatos que podemos ter na eleição. Neste caso, são 9 candidatos.
+
+Há uma estrutura chamada candidate, que é como um modelo para cada candidato. Ela armazena o nome do candidato (com até 50 caracteres) e o número de votos que o candidato recebeu.
+
+Criamos um array de candidatos chamado candidates com base no número máximo de candidatos (MAX). E também há uma variável chamada candidate_count para rastrear quantos candidatos temos até agora.
+
+O programa define algumas funções para nos ajudar: get_int para obter números do usuário, vote para registrar os votos e print_winner para determinar e mostrar o vencedor.
+
+A função main é onde a mágica acontece. Verifica se temos argumentos suficientes (neste caso, nomes de candidatos) da linha de comando. Se não, ele nos diz como usar o programa.
+
+Em seguida, inicializa a lista de candidatos com base nos nomes fornecidos na linha de comando.
+
+Pergunta quantos eleitores vão votar.
+
+Para cada eleitor, permite que eles votem e verifica se o voto é válido. Se não for, mostra uma mensagem de erro.
+
+Por fim, a função print_winner determina e mostra quem ganhou a eleição com o maior número de votos.
+
+Então, em resumo, este programa simula uma eleição, rastreia votos e declara um vencedor. É uma forma simples de entender como o processo de contagem de votos pode ser implementado em código.
+</details>
+
+### runoff
+
+Esse programa, chamado "runoff", é uma simulação de uma eleição de segundo turno, onde os eleitores classificam os candidatos em ordem de preferência. O programa decide o vencedor com base nessas classificações. Vou explicar a sintaxe e o propósito deste programa
+
+<details>
+Começamos incluindo algumas bibliotecas padrão em C, como stdio.h, string.h e stdbool.h. Além disso, definimos algumas constantes úteis, como o número máximo de eleitores e candidatos.
+
+Definimos um array bidimensional preferences, que armazena as classificações dos candidatos por parte dos eleitores. Cada eleitor classifica todos os candidatos, e as classificações são armazenadas como índices dos candidatos.
+
+Criamos uma estrutura candidate para representar cada candidato. Ela inclui o nome, o número de votos e um indicador se o candidato foi eliminado.
+
+Em seguida, criamos um array de candidatos chamado candidates com base no número máximo de candidatos. Também inicializamos o número de eleitores e as informações dos candidatos.
+
+O programa começa pedindo ao usuário o número de eleitores e verifica se está dentro do limite máximo permitido.
+
+Depois, permite que cada eleitor classifique os candidatos em ordem de preferência e armazena essas classificações no array preferences.
+
+A parte principal do programa é um loop que faz a contagem dos votos e verifica o vencedor do segundo turno.
+
+A função vote verifica se o nome do candidato é válido e, em caso afirmativo, registra a classificação do eleitor.
+
+A função tabulate conta os votos para cada candidato com base nas classificações dos eleitores.
+
+A função print_winner verifica se alguém já ganhou com mais da metade dos votos. Se isso acontecer, ela imprime o nome do vencedor.
+
+A função find_min encontra o número mínimo de votos que um candidato ainda na disputa possui.
+
+A função is_tie verifica se há um empate entre os candidatos com os votos mínimos.
+
+A função eliminate remove os candidatos que têm o número mínimo de votos, pois eles não podem mais vencer.
+
+O programa continua rodando até que haja um vencedor ou um empate. No final, ele imprime o nome do vencedor ou dos candidatos que estão empatados. Isso simula uma eleição em que os eleitores classificam seus candidatos por ordem de preferência, e o vencedor é determinado após a eliminação de candidatos até que alguém tenha a maioria dos votos.
+</details>
+
+</details>
