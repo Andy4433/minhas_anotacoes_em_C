@@ -1,5 +1,8 @@
 # Programação em C
 
+![create-script](https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif)
+
+
 ## como rodar Seu programa
 
 ### C++:
