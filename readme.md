@@ -1,6 +1,8 @@
 # Programação em C/C++
 
-Neste readme eu irei falar de geral tanto do C quanto do C++, quando eu for para POO ou algo especifico de cada linguagem eu irei criar um readme especifico elas
+Neste readme eu irei falar de geral tanto do C quanto do C++, quando eu for para POO ou algo especifico de cada linguagem eu irei criar um readme especifico elas.
+
+### oque são essas linguagens? 
 
 <img align="right" src="https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif" width="250" alt="Gif de programação em anime">
 
