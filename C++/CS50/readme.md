@@ -151,4 +151,43 @@ Passo 5: Finalmente, o programa te mostra o texto que passou pela transformaçã
 E é assim que funciona o "caesar". Ele é uma maneira simples de esconder mensagens, mas não é a mais segura. Portanto, use com sabedoria e apenas para coisas divertidas!
 </details>
 
+### Readability
+<details>
+
+<img align="right" src="https://i.pinimg.com/originals/66/9f/e4/669fe4c57105ade508c8b08796f91c25.gif" width="250" alt="Livros">
+
+Propósito:
+Este programa faz algo bem legal. Ele avalia o quão fácil ou difícil é ler um pedaço de texto. Basicamente, ele analisa o número de palavras, letras e sentenças no texto e calcula uma pontuação com base nisso. Em seguida, ele dá ao texto uma classificação de "legibilidade" com base nessa pontuação.
+
+Estrutura:
+
+Inclusão de Bibliotecas:
+
+Aqui, o programa simplesmente carrega algumas ferramentas padrão do C e C++ que serão usadas ao longo do programa. É como pegar suas ferramentas de análise de texto.
+Declaração de Variáveis:
+
+Ele cria uma caixa imaginária chamada text para armazenar o texto que você digitará mais tarde.
+Função main:
+
+Esta é a parte principal do programa, como o chefão. Tudo começa aqui.
+Entrada do Texto:
+
+Primeiro, ele diz "me conte o texto", e você digita o texto.
+Ele guarda o que você digitou na caixa text.
+Contagem de Letras, Palavras e Sentenças:
+
+Agora, o programa faz um trabalho de detetive. Ele começa a contar coisas no texto. Quantas letras, quantas palavras e quantas sentenças estão no seu texto.
+As contagens são guardadas nas caixas letters, words e sentences.
+Cálculo de Legibilidade:
+
+Com as contagens, o programa faz algumas contas malucas. Isso envolve multiplicar, dividir e subtrair coisas. No final, ele obtém um número que representa a "legibilidade" do texto, que é guardado na caixa calculation.
+Classificação de Leitura:
+
+Finalmente, ele pega esse número de "legibilidade" e o arredonda para o número inteiro mais próximo, que é chamado de index.
+Dependendo do valor de index, ele diz qual é a classificação da leitura. Por exemplo, se index for menor que 1, ele diz que o texto é mais fácil de ler do que uma história de criança.
+Objetivo:
+Basicamente, este programa é uma ferramenta para avaliar o quão fácil é ler um texto. Ele faz isso analisando o texto e atribuindo uma classificação com base na sua complexidade. É como um juiz de legibilidade para textos.
+
+</details>
+
 </details>
