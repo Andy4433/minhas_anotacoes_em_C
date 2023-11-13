@@ -6,28 +6,27 @@ Neste readme eu irei falar de geral tanto do C quanto do C++, quando eu for para
 
 - 1.0 [oque são essas linguagens?](#que-são-essas-linguagens?)
 
-- 2.0 [Variaveis](#Variaveis)
+- 2.0 [Variaveis](#variaveis)
 
-    - 2.1 [sintaxe](#sintaxe)
+  - 2.1 [sintaxe](#sintaxe)
 
-    - 2.2 [tipos de variaveis](#tipos-de-variaveis)
+  - 2.2 [tipos de variaveis](#tipos-de-variaveis)
 
-    - 2.3 [exemplo](#exemplo)
+  - 2.3 [exemplo](#exemplo)
 
-- 3.0 [Saida de dados](#Saida-de-dados)
+- 3.0 [Saida de dados](#saida-de-dados)
 
-- 4.0 [Entrada de dados](#Entrada-de-dados)
+- 4.0 [Entrada de dados](#entrada-de-dados)
 
-- 5.0 [Operadores](#Operadores)
+- 5.0 [Operadores](#operadores)
 
-- 6.0 [If e else](#If-e-else)
+- 6.0 [If e else](#if-e-else)
 
 - 7.0 [loops while](#loops-while)
 
-    - 7.1 [comando while](#comando-while)
+  - 7.1 [comando while](#comando-while)
 
-
-## oque são essas linguagens? 
+## oque são essas linguagens?
 
 <img align="right" src="https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif" width="250" alt="Gif de programação em anime">
 
@@ -35,7 +34,8 @@ Em resumo C é uma linguagem de programação de baixo nível e procedural, enqu
 
 ## como rodar Seu programa
 
-### C++:
+### C++
+
   <details>
 
     g++ <Seu_programa.c++> -o <Seu_programa>
@@ -43,7 +43,7 @@ Em resumo C é uma linguagem de programação de baixo nível e procedural, enqu
 
   </details>
 
-### C:
+### C
 
  <details>
 
@@ -52,42 +52,41 @@ Em resumo C é uma linguagem de programação de baixo nível e procedural, enqu
 
 </details>
 
-## Variaveis:
-
+## Variaveis
 
 <img align="right" src="https://noic.com.br/wp-content/uploads/2021/07/scene1.gif" width="250" alt="Variaveis">
 
-
 Variaveis são espaço da memoria para amazenar dados.
 
-### sintaxe:
+### sintaxe
+
     declaraçao: <tipo><nome>;
 
 Nomeclatura:
 
-* não pode numero 1ª posição.
+- não pode numero 1ª posição.
 
-* não pode caracteres especiais.
+- não pode caracteres especiais.
 
-* não pode espaço
+- não pode espaço
 
-* pode ter letras, _, e numeros no final do nome
+- pode ter letras, _, e numeros no final do nome
 
-### tipos de variaveis:
+### tipos de variaveis
 
-* char 8bits  -128 a 127
+- char 8bits  -128 a 127
 
-* int(shot) 16bits  -32.768 a 32.767
+- int(shot) 16bits  -32.768 a 32.767
 
-* int (long) 32bits -2.147.483.648 a 2.147.483.647
+- int (long) 32bits -2.147.483.648 a 2.147.483.647
 
-* float 32bits -3.4e38 a 3.4e38.
+- float 32bits -3.4e38 a 3.4e38.
 
-* double 64bits -1.7e308 a 1.7e308.
+- double 64bits -1.7e308 a 1.7e308.
 
 operador = oque esta á direita é atribuido á variavel que está á esquerda o operador:
 
-sintaxe: 
+sintaxe:
 
     <variavel> = <informação>;
 
@@ -98,7 +97,7 @@ sintaxe declaração:
 
     #define <nome> <valor>
 
-### exemplo:
+### exemplo
 
     #include <stdio.h>
 
@@ -125,9 +124,7 @@ sintaxe declaração:
         
     }
 
-
-## Saida de dados:
-
+## Saida de dados
 
 sintaxe:  
 
@@ -135,47 +132,47 @@ sintaxe:
 
 posso ter nenhum texto com varias variavei, tambem com texto e sem variavel ou os dois juntos
 
-* d ou i= numeros do tipo int
+- d ou i= numeros do tipo int
 
-* x= numeros do tipo int em base de hexadecimal
+- x= numeros do tipo int em base de hexadecimal
 
-* f= numeros do tipo float
+- f= numeros do tipo float
 
-* e= numeros em notaçao cientifica
+- e= numeros em notaçao cientifica
 
-* c= caracteristicas alfanumericos
+- c= caracteristicas alfanumericos
 
-* s= sequencia de caracteres alfanumericos (strings)
+- s= sequencia de caracteres alfanumericos (strings)
 
-* .<num>= especificaa quantos digitos terao depois da virgula
+- .<num>= especificaa quantos digitos terao depois da virgula
 
-* \a= toca um bipe
+- \a= toca um bipe
 
-* \b backspace
+- \b backspace
 
-* \n= quebra uma linha
+- \n= quebra uma linha
 
-* \t= tabulaçao horizontal
+- \t= tabulaçao horizontal
 
-* \r= retorna ao inicio da linha
+- \r= retorna ao inicio da linha
 
-* \o= caractere nulo
+- \o= caractere nulo
 
-* \v= tabulaçao vertical
+- \v= tabulaçao vertical
 
-* \\= caractere \
+- \\= caractere \
 
-* \'= caractere '
+- \'= caractere '
 
-* \"= caractere "
+- \"= caractere "
 
-* \?= caractere ?
+- \?= caractere ?
 
-* \123= caractere relacionado ao codigo 123 em octal
+- \123= caractere relacionado ao codigo 123 em octal
 
-* \x12= caractere relacionado ao codigo 12 em hexadecimal
+- \x12= caractere relacionado ao codigo 12 em hexadecimal
 
-### Exemplo:
+### Exemplo
 
     #include <stdio.h>
 
@@ -190,37 +187,35 @@ posso ter nenhum texto com varias variavei, tambem com texto e sem variavel ou o
         printf("Dado de texto: %s. \n", "testando");
     }
 
+## Entrada de dados
 
-## Entrada de dados:
-
-sintaxe: 
+sintaxe:
 
     (<form.>, &<v1>, &<v2>, ...,&<vN>); 
 
 da para ter 1 ou N variaveis.
 
-sintaxe: 
+sintaxe:
 
     (<form.>, <form.>, &<v1>, &<v2>, ...,&<vN>); 
 
 cada form. representa cada variavel espectivamente ou se <1form.>= v1 e <2form.>= v2
 
-* d ou i= numeros do tipo int
+- d ou i= numeros do tipo int
 
-* x= numeros do tipo int em base de hexadecimal
+- x= numeros do tipo int em base de hexadecimal
 
-* f= numeros do tipo float
+- f= numeros do tipo float
 
-* e= numeros em notaçao cientifica
+- e= numeros em notaçao cientifica
 
-* c= caracteristicas alfanumericos
+- c= caracteristicas alfanumericos
 
-* s= sequencia de caracteres alfanumericos (strings)
+- s= sequencia de caracteres alfanumericos (strings)
 
-* .<^chars>= lê todos os dados digitados, exceto os especificados em "chars"
+- .<^chars>= lê todos os dados digitados, exceto os especificados em "chars"
 
-### exemplo:
-
+### exemplo
 
     #include <stdio.h>
 
@@ -240,11 +235,7 @@ cada form. representa cada variavel espectivamente ou se <1form.>= v1 e <2form.>
         printf("ano informado: %d.\n", ano);
     }
 
-
-
-## Operadores:
-
-
+## Operadores
 
 Operadores: +,-,*,/ e % -- existe precedencia entre os operadores
 
@@ -261,7 +252,6 @@ decremento genérico: -=
 atribuiçao com multiplicaçao: *=
 
 atribuiçao com divisao: /=
-
 
     #include <stdio.h>
 
@@ -303,15 +293,11 @@ atribuiçao com divisao: /=
         printf(" Dado depois do decremento: %d.\n", dado);
     }
 
-
-
-## If e else:
-
+## If e else
 
 if-else:
 
 se a condiçao for verdadeira o bloco if é executado e o bloco else é iginorado
-
 
 Em C, a estrutura else if é usada para verificar múltiplas condições em sequência, assim como em Rust.
 
@@ -357,11 +343,7 @@ exemplo:
         }
     }
 
-
-
-## loops while:
-
-
+## loops while
 
 um erro comum de uma variavel onde o conteudo nao é conhecido pelo programador o esqueceu de colocar a instruçao isso é um erro sermantico
 
@@ -380,8 +362,8 @@ CUIDADO: loop infinito
     while (<condição>){
     <bloco_de_comandos>
     }
-    
-### Exemplo:
+
+### Exemplo
 
     #include <unistd.h>
     #include <stdio.h>
@@ -411,4 +393,3 @@ CUIDADO: loop infinito
         printf("tempo de execução: %2.f segundos\n",cpu_time_used);
         return 0;
     }
-
